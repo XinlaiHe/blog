@@ -4,8 +4,11 @@
   float: right; }
 
 .title-bar {
-  padding: 0 .5rem; }
-
+  padding: 0 .5rem;
+}
+.top-bar, .top-bar ul {
+    background-color: white;
+}
 .menu-icon,
 .title-bar-title {
   position: relative;
@@ -25,8 +28,7 @@
       margin-left: -59px; }
 
   .top-bar-right {
-    width: 50%;
-    padding-left: 86px; }
+    width: 50%; }
     .top-bar-right ul {
       float: left; }
 
@@ -35,3 +37,35 @@
     padding-right: 86px; }
     .top-bar-left ul {
       float: right; } }
+
+.title-bar img{
+
+   height:45px;
+}
+.logo img{
+
+    height:50%;
+}
+
+.top-bar-left ul li:first-child a{
+    color:orange;
+}
+.row{
+   height:100%;
+   max-width:100%;
+   position:absolute;
+   z-index:998;
+}
+.columns{
+  padding:0em;
+}
+.image-overlay-content {
+  color:white;
+  width: auto;
+  height: 10%;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  z-index:999;
+  text-align: center;
+}
